@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Employee Management</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Employee Management System</h1>
+        <p>Gestion des employés</p>
+    </header>
+
+    <main>
+
+        <section class="form-section">
+
+            <h2>Ajouter un employé</h2>
+
+            <form id="employeeForm">
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Nom complet"
+                    required
+                >
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Email"
+                    required
+                >
+
+                <input
+                    type="text"
+                    id="department"
+                    placeholder="Département"
+                >
+
+                <input
+                    type="text"
+                    id="position"
+                    placeholder="Poste"
+                >
+
+                <button type="submit">
+                    Ajouter
+                </button>
+
+            </form>
+
+        </section>
+
+        <section class="employees-section">
+
+            <h2>Liste des employés</h2>
+
+            <div id="employeesList"></div>
+
+        </section>
+
+    </main>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
+

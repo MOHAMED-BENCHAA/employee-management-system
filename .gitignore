@@ -1,0 +1,12 @@
+```gitignore
+# Fichiers secrets
+.env
+**/.env
+
+# Dépendances Node.js
+node_modules/
+**/node_modules/
+
+# Fichiers de logs
+npm-debug.log*
+```
